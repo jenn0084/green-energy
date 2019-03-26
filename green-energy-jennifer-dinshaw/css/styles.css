@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+/*container tag*/
+.container
+{
+    min-width: 30rem;
+    margin: 0 auto;
+}
+
+.btns img
+{
+    width: 40px;
+    height: auto;
+}
+
+
+/*navigation*/
+nav
+{
+	width:100%;
+	background-color:lightseagreen;
+	position: fixed;
+	top:0;
+	z-index: 3;
+	text-align: left;
+    
+}
+
+
+/*nav color */
+.navbar-default .navbar-nav>li>a
+{
+	background-color:lightseagreen;
+	text-decoration: none;
+    color: white;
+}
+
+
+
+@media (min-width: 60rem){
+    .navbar li {
+        text-align: center;
+        margin-left : 5em;
+        margin-right : 4em;
+        background-color: wheat;
+        font-size: 2rem;
+        line-height: 1.6rem;
+        text-align: left;
+    }
+}
+
+
+/*mobile*/
+@media screen and (min-width: 30rem)
+{
+  body
+  {
+    width: 100%;
+    line-height: 1.4;
+    font-size: 1.618rem;
+  }
+}
+
+
+/*website*/
+@media screen and (max-width: 60rem)
+{
+  body
+  {
+      font-size: 1rem;
+      line-height: 1.6;
+  }
+}
+
+/*styling body tag - font*/
+body
+{
+    font-family: 'Lato', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif; 
+    background-color: lightseagreen;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/*serif font crete round and backup fonts*/
+h1, h2
+{
+    font-family: 'Crete Round', 'Times New Roman', 'Century Schoolbook', serif;
+    color: ghostwhite;
+}
+
+
+/* opening styling footer */
+/*space for footer*/
+footer
+{
+    margin: 30px;
+    word-spacing: 20px;
+    text-align: left;
+}
+
+/*footer display*/
+footer a
+{
+    color: white;
+    height:  10px;
+    font-size: 1rem;
+}
